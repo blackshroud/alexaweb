@@ -1,6 +1,6 @@
 # alexaweb
 
-Alexa in The Browser, see https://alexaweb.herokuapp.com for a demo
+Alexa in The Browser, see https://blackshroud-alexa.herokuapp.com/ for a demo
 
 ## Notes
 
@@ -14,7 +14,7 @@ This app was built for heroku, if you want to run locally or on another platform
 
 You can do this by cloning the repo to your server of choice (local or whatever)
 
-`git clone git@github.com:sammachin/alexaweb.git`
+`git clone git@github.com/blackshroud/alexaweb.git`
 
 OR you can setup a heroku app and set a forked version of the git as the source (heroku talks your through it)
 

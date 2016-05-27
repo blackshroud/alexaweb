@@ -32,7 +32,9 @@ make a note of your app name and if you want to rename it with
 
 Next you need to obtain a set of credentials from Amazon to use the Alexa Voice service, login at http://developer.amazon.com and Goto Alexa then Alexa Voice Service
 
-You need to create a new product type as an Application, for the ID use what ever you like, create a new security profile and under the web settings allowed origins put the following;
+You need to create a new product type as an Application, for the ID use what ever you like and then create a new security profile. 
+
+Under the web settings allowed origins put the following;
 
 http://localhost:5000 
 

@@ -3,7 +3,7 @@
 		<title>Alexa Client</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="static/record.js"></script>
-		
+		<!--
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.2.1/annyang.min.js"></script>
 
 		<script>
@@ -19,7 +19,14 @@
 			  annyang.start();
 			}
 		</script>
-		
+		-->
+	
+			<script src="https://raw.githubusercontent.com/pazguille/voix/master/voix.js"></script>
+
+		<script>
+		var voix = new Voix('en-US');
+		voix.setCommand('computer', startrecord);
+		</script>
 		<style>
 		html, body {
 		  width:  100%;
